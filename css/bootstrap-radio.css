@@ -1,0 +1,109 @@
+/* ===========================================================
+ * bootstrap-radio.js - v.1.0.0
+ * ===========================================================
+ * Copyright 2013 Roberto Montresor
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ========================================================== */
+ 
+ @CHARSET "ISO-8859-1";
+
+.bootstrap-radio > button.btn{
+	width:29px;
+}
+
+.bootstrap-radio > button.btn.displayAsButton,
+.bootstrap-radio > button.btn.btn-lg.displayAsButton,
+.bootstrap-radio > button.btn.btn-sm.displayAsButton,
+.bootstrap-radio > button.btn.btn-sx.displayAsButton{
+	width:auto;
+}
+.bootstrap-radio > button.btn.displayAsButton > span.label-radio{
+	padding:0 8px 0 4px;
+}
+.bootstrap-radio > button.btn.displayAsButton > span.icon{
+	margin: 2px 4px;
+}
+.bootstrap-radio > button.btn.displayAsButton > span.label-prepend-radio{
+	padding:0 4px 0 8px;
+}
+
+.bootstrap-radio > button.btn.btn-lg{
+	padding:13px 16px;
+	width:44px;
+}
+.bootstrap-radio > button.btn.btn-sm{
+	padding:8px 10px;
+	width:28px;
+}
+.bootstrap-radio > button.btn.btn-xs{
+	padding:4px;
+	width:20px;
+}
+
+.bootstrap-radio > .btn.btn-link{
+ 	text-decoration:none;
+}
+
+label.bootstrap-radio.disabled{
+	cursor:default;
+	color:#666;
+}
+
+.bootstrap-radio > .label-prepend-radio{
+	padding-right:4px;
+}
+
+.bootstrap-radio > .label-radio{
+	padding-left:4px;
+}
+
+.bootstrap-radio.disabled > [class^="label-"],
+.bootstrap-radio > .btn[disabled]{
+	cursor:not-allowed;
+}
+
+[class^="cb-icon-"],
+[class*=" cb-icon-"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../img/icons.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+
+.bootstrap-radio button.btn > span.cb-icon-radio-check,
+.bootstrap-radio.disabled button.btn:hover > span.cb-icon-radio-check,
+.bootstrap-radio.disabled button.btn:active > span.cb-icon-radio-check{
+	background-position: 0 -2px;
+}
+.bootstrap-radio button.btn:hover > span.cb-icon-radio-check,
+.bootstrap-radio button.btn:focus > span.cb-icon-radio-check,
+.bootstrap-radio button.btn:active > span.cb-icon-radio-check{
+	background-position: 0 -22px;
+}
+.bootstrap-radio button.btn > span.cb-icon-radio-check-empty,
+.bootstrap-radio.disabled button.btn:hover > span.cb-icon-radio-check-empty,
+.bootstrap-radio.disabled button.btn:active > span.cb-icon-radio-check-empty{
+	background-position: -24px -2px;
+}
+.bootstrap-radio button.btn:hover > span.cb-icon-radio-check-empty,
+.bootstrap-radio button.btn:focus > span.cb-icon-radio-check-empty,
+.bootstrap-radio button.btn:active > span.cb-icon-radio-check-empty{
+	background-position: -24px -22px;
+}
